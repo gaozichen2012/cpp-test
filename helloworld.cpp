@@ -68,7 +68,7 @@ int main()
     double volume = 0.0;
     char name[50];
 
-    vector<string> msg{"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
+    // vector<string> msg{"Hello", "C++", "World", "from", "VS Code", "and the C++ extension!"};
 
     volume = Box1.getVolume1();
     cout << "Box1 default getVolume1 = " << volume << endl;
@@ -80,13 +80,13 @@ int main()
     volume = Box1.getVolume2();
     cout << "Box1 getVolume2 = " << volume << endl;
 
-    for (const string &word : msg)
-    {
-        cout << word << " ";
-    }
-    cout << endl;
+    // for (const string &word : msg)
+    // {
+    //     cout << word << " ";
+    // }
+    // cout << endl;
 
-    // cout << "please your name: ";
-    // cin >> name;
-    // cout << "your name is " << name << endl;
+    cout << "please your name: ";
+    cin >> name;
+    cout << "your name is " << name << endl;
 }
